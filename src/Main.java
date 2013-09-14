@@ -53,7 +53,7 @@ public class Main {
 			 * To run this from the command line, just comment out the following line, and just run:
 			 * java Main <file_location>
 			 */
-			args = new String[1]; args[0] = "c:\\Knewton\\Artist_lists_small.txt";
+			args = new String[1]; args[0] = "c:\\Test\\Artist_lists_small.txt";
 			@SuppressWarnings("resource")
 			BufferedReader reader = new BufferedReader(new FileReader(args[0]));
 			String line; 
