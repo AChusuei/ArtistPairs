@@ -2,6 +2,7 @@ public class ArtistPair implements Comparable<ArtistPair> {
 
 	private String artistOne;
 	private String artistTwo;
+  private String randomThingy;
 	
 	/*
 	 * Since order doesn't matter when pairing artists,
